@@ -1,0 +1,97 @@
+.header {
+    width: 1280px;
+    position: fixed;
+}
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    background-image:url(back.jpg);
+    background-size: cover;
+}
+/* kode css navigator */
+ul{
+    list-style: none;
+    background:burlywood;
+    padding: 0px 0px;
+    margin: 120px 0px;
+    position: fixed;
+    width: 1280px;
+    height: 60px;
+}
+
+ul li{
+    display: inline-block;
+    position: relative;
+    height: 60px;
+    padding: 10px 8px;
+}
+
+ul li a{
+    padding: 10px 0px;
+    text-align: center;
+}
+
+ul a:hover{
+    background-color: sandybrown;
+}
+
+/* kode css dropdown */
+ul li ul.dropdown li{
+    display:block;
+}
+
+ul li ul.dropdown{
+    background: burlywood;
+    position: absolute;
+    display: none;
+    width: auto;
+    height: auto;
+    margin: 0px 0px;
+}
+
+ul li:hover ul.dropdown{
+    display: block;
+}
+
+/* kode css dropdown1 */
+ul li ul.dropdown1 li{
+    display:block;
+}
+
+ul li ul.dropdown1{
+    background: burlywood;
+    position: absolute;
+    display: none;
+    width: auto;
+    height: auto;
+    margin: 0px 0px;
+}
+
+ul li:hover ul.dropdown1{
+    display: block;
+}
+
+.column  {
+    float: left;
+    padding: 10px 10px;
+}
+
+/* left Column */
+.column.side {
+    margin: 170px 0px;
+    width: 16.5%;
+    background-color: rgba(220, 139, 112, 0.719);
+}
+
+.column.middle {
+    margin: 200px 30px;
+    width: 70%;
+    background-color: rgba(220, 139, 112, 0.719);
+}
+
+.footer{
+    width: 1280px;
+    position: fixed;
+    margin: 530px 0px;
+}
